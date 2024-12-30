@@ -2,5 +2,5 @@ version: "1"
 rules:
   - base: main
     upstream: dreamhunter2333:main
-    mergeMethod: merge
-    mergeUnstable: false
+    mergeMethod: hardreset
+    mergeUnstable: true
